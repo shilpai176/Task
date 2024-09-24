@@ -1,7 +1,7 @@
 # Terraform AWS Infrastructure Setup
 
 ## Overview
-This Terraform project provisions a basic web application infrastructure on AWS, consisting of an EC2 instance running an Ubuntu web server and an RDS MySQL database.
+This Terraform project provisions a basic web application infrastructure on AWS, consisting of an EC2 instance, running an Ubuntu web server and an RDS MySQL database.
 
 ## Repository Structure
 - **main.tf:** The main Terraform configuration file that orchestrates the infrastructure setup using modules.
@@ -12,8 +12,8 @@ This Terraform project provisions a basic web application infrastructure on AWS,
 - Terraform installed on your local machine.
 - AWS CLI configured with proper credentials.
 - An AWS account with necessary permissions
-- We have configured aws account by using free trial account. as per the task requirement db-instance class is to db.t2.micro but it was 
-  not supported for free trial so we have changed the db.t3.micro
+- We have configured AWS account by using free trial account. as per the task requirement db-instance class is db.t2.micro but it was 
+  not supporting for free trial so we have changed the class as db.t3.micro
 - The Ubuntu 20.04 is not supported in free trial so I have configured the ubuntu-noble-24.04-amd64-server-20240801 version
 
 ## Customization
