@@ -30,7 +30,7 @@ You can customize the following variables in `variables.tf`:
 - `db_password`: The password for the MySQL database (sensitive, default: XXXXX(add the password).
 
 ## Deployment Instructions
-1. crete the main.tf,output.tf and variable.tf files in terraform add the given code in there respective tf files.
+1. Crete the main.tf,output.tf and variable.tf files in terraform add the given code in there respective tf files.
 2. Initialize Terraform
    Run the following command to initialize Terraform, which will download the necessary providers:
    /* Terraform init */
