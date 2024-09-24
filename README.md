@@ -7,8 +7,7 @@ This Terraform project provisions a basic web application infrastructure on AWS,
 - **main.tf:** The main Terraform configuration file that orchestrates the infrastructure setup using modules.
 - **variables.tf:** Contains variable definitions for customizing the infrastructure.
 - **outputs.tf:** Outputs useful information after deployment.
-- **screenshots/**: Contains a screenshot showing the successful deployment of the infrastructure.
-
+- 
 ## Prerequisites
 - Terraform installed on your local machine.
 - AWS CLI configured with proper credentials.
